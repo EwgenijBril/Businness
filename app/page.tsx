@@ -1,6 +1,16 @@
 import type React from "react"
 import { HeroSection } from "@/components/sections/hero-section"
 import { BenefitsSection } from "@/components/sections/benefits-section"
+import { CasesSection } from "@/components/sections/cases-section"
+import { ConsultationSection } from "@/components/sections/consultation-section"
+import { ProgramsSection } from "@/components/sections/program-section"
+import { TestimonialsSection } from "@/components/sections/testimonials-section"
+import { ProblemSolvingSection } from "@/components/sections/problem-solving-section"
+import { AboutMeSection } from "@/components/sections/about-me-section"
+import { CompaniesSection } from "@/components/sections/companies-section"
+import { SpeakingSection } from "@/components/sections/speaking-section"
+import { TelegramSection } from "@/components/sections/telegram-section"
+import { Footer } from "@/components/sections/footer-section"
 
 // ... (существующий код LandingPage и InfoCard)
 
@@ -30,6 +40,16 @@ export default function Home() {
     <>
       <HeroSection />
       <BenefitsSection />
+      <CasesSection />
+      <ConsultationSection />
+      <ProgramsSection />
+      <TestimonialsSection />
+      <ProblemSolvingSection />
+      <AboutMeSection />
+      <CompaniesSection />
+      <SpeakingSection />
+      <TelegramSection />
+      <Footer />
     </>
   )
 }
